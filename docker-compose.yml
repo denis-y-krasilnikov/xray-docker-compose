@@ -9,5 +9,4 @@ services:
     environment:
       XRAY_VMESS_AEAD_FORCED: "false"
     tty: true
-    network_mode: host
     restart: unless-stopped
